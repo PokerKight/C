@@ -6,8 +6,8 @@
 
 #define MAX_HIST_LEN	15
 #define MAX_WORD_LEN 	15
-#define IN				1
-#define OUT				0
+#define IN		1
+#define OUT		0
 
 int main()
 {
