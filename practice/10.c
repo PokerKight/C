@@ -15,7 +15,6 @@ int getLine(char szLine[], int nMaxLineLen);
  */
 int reMove(char szLine[]);
 
-
 int main()
 {
 	char szLine[MAX_LINE_LEN];
