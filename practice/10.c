@@ -22,7 +22,7 @@ int main()
 
 	while (getLine(szLine, MAX_LINE_LEN) > EMPTY_LINE)
 		if (reMove(szLine) > EMPTY_LINE)
-			printf("%s", szLine);
+			printf("%s\n", szLine);
 
 	return 0;
 }
@@ -65,11 +65,9 @@ int reMove(char szLine[])
 	while (i >= 0 && (szLine[i] == ' ' || szLine[i] == '\t')) /* 注意'&&'优先级高于'||' */
 		--i;
 	
-	/* 如果不是空行，则追加'\n'和'\0' */
+	/* 如果不是空行，则追加'\0' */
 	if (i > 0)
 	{
-		++i;
-		szLine[i] = '\n';
 		++i;
 		szLine[i] = '\0';
 	}
