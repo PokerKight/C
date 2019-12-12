@@ -31,7 +31,7 @@ int getLine(char szLine [ ], int nMaxLineLen)
 	/* 直到1.输入字符超过最大限制、2.遇到EOF、3.换行才停止 */
 	for (i = 0; i < MAX_LINE_LEN - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
 		szLine[i] = c;
-	/* 如果遇到换行，换行符也计入当行的长度 */
+	/* 如果遇到换行，换行符也计入当前行的长度 */
 	if (c == '\n')
 	{
 		szLine[i] = c;
