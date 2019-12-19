@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define MAX_LINE_LEN	1000	/* 行最大字符长度 */
+#define EMPTY_LINE	0	/* 空行 */
 
 /*
  * 得到一行输入
@@ -18,7 +19,7 @@ int main()
 {
 	char szLine[MAX_LINE_LEN];
 
-	while (getLine(szLine, MAX_LINE_LEN)) > 0)
+	while (getLine(szLine, MAX_LINE_LEN) > EMPTY_LINE)
 	{
 		reverse(szLine);
 		printf("%s\n", szLine);
