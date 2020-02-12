@@ -25,7 +25,7 @@
 [22 二进制位值-右移](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%202/22.c)<br/>
 ## [Chapter 3](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%203)
 [23 字符串扩展](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/23.c)<br/>
-[24 完美的itoa](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/24.c)<br/><br/>
-[25 进制转换itob](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/25.c)<br/><br/>
+[24 完美的itoa](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/24.c)<br/>
+[25 进制转换itob](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/25.c)<br/>
 ## [Chapter 4](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%204)
-[26 科学计数法的atof](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/26.c)<br/><br/>
+[26 科学计数法的atof](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/26.c)<br/>
