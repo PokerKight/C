@@ -152,8 +152,10 @@ int main()
 		printf("QueryWithValue %d succeed, index = %d\n", value, index);
 
 	Destory(&L);
-	if(L.length == 0)
+	if(L.data == NULL && L.length == 0 && L.maxSize == 0)
 		printf("Destory succeed\n");
+	else
+		printf("Deatory failed\n");
 
 	return 0;
 }
