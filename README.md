@@ -13,7 +13,7 @@
 [11 唱反调](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%201/11.c)<br/>
 [12 制表符的位置是固定的？！](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%201/12.c)<br/>
 13 折句<br/>
-14 删除注释<br/>
+[14 删除注释](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%201/14.c)<br/>
 ## [Chapter 2](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%202)
 [15 类型的取值范围](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%202/15.c)<br/>
 [16 如果没有&&](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%202/16.c)<br/>
