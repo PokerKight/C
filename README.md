@@ -29,3 +29,6 @@
 [25 进制转换itob](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%203/25.c)<br/>
 ## [Chapter 4](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%204)
 [26 科学计数法的atof](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/26.c)<br/>
+[27 逆波兰计算器](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/27.c)<br/>
+[28 递归的itoa](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/28.c)<br/>
+[29 递归的reverse](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/29.c)<br/>
