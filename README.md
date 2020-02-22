@@ -32,3 +32,4 @@
 [27 逆波兰计算器](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/27.c)<br/>
 [28 递归的itoa](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/28.c)<br/>
 [29 递归的reverse](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/29.c)<br/>
+[30 宏swap](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/30.c)<br/>
