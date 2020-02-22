@@ -33,3 +33,5 @@
 [28 递归的itoa](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/28.c)<br/>
 [29 递归的reverse](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/29.c)<br/>
 [30 宏swap](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/30.c)<br/>
+## [Chapter 5](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%205)
+[31 读取浮点数](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/31.c)<br/>
