@@ -35,3 +35,6 @@
 [30 宏swap](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%204/30.c)<br/>
 ## [Chapter 5](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%205)
 [31 读取浮点数](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/31.c)<br/>
+[32 指针的strcat](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/32.c)<br/>
+[33 指针的strend](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/33.c)<br/>
+[34 strncpy、strncat、strncmp](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/34.c)<br/>
