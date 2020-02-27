@@ -2,7 +2,7 @@
 
 int main()
 {
-	float nFahr = 0;
+	float nFahr = 0.0;
 	float nCelsius = 0.0;
 	int nLower = 0;
 	int nUpper = 300;

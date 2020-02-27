@@ -4,21 +4,21 @@
 #define EMPTY_LINE		0		
 #define LIMIT_LINE_LEN	81
 
-int getLine(char szLine[], int nMaxLineLen);
-
-int main()
+#ifdef POINT
+int getLine(char *szLine, int nLen)
 {
-	int nLineLen;
-	char szLine[MAX_LINE_LEN];
+	int c = 0;
+	char *pStart = szLine;
 
-	while ((nLineLen = getLine(szLine, MAX_LINE_LEN)) > EMPTY_LINE)
-		if (nLineLen > LIMIT_LINE_LEN)
-			printf("%s", szLine);
-		
-	return 0;
+	while (--nLen > 0 && (c = getchar()) != EOF && c != '\n')
+		*szLine++ = c;
+	if (c == '\n')
+		*szLine++ = c;
+	*szLine = '\0';
+	return szLine - pStart;
 }
-
-int getLine(char szLine [ ], int nMaxLineLen)
+#else
+int getLine(char szLine[], int nLen)
 {
 	int c = 0;
 	int i = 0;
@@ -33,4 +33,17 @@ int getLine(char szLine [ ], int nMaxLineLen)
 	szLine[i] = '\0';
 	
 	return i;
+}
+#endif
+
+int main()
+{
+	int nLineLen;
+	char szLine[MAX_LINE_LEN];
+
+	while ((nLineLen = getLine(szLine, MAX_LINE_LEN)) > EMPTY_LINE)
+		if (nLineLen > LIMIT_LINE_LEN)
+			printf("%s", szLine);
+		
+	return 0;
 }

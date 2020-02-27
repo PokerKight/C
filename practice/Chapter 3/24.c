@@ -1,31 +1,53 @@
 #include <stdio.h>
+#include <string.h>
 
+#define abs(x) ((x) < 0 ? -(x) : (x))
+
+#ifdef POINT
+void reverse(char *szLine)
+{
+	char *pEnd = NULL;
+	char temp = 0;
+
+	pEnd = szLine + (strlen(szLine)-1);
+	while (szLine <= pEnd)
+	{
+		temp = *szLine;
+		*szLine++ = *pEnd;
+		*pEnd-- = temp;
+	}
+}
+
+void itoa(int n, char *s)
+{
+	int sign = 0;
+	char *t = s;
+	
+	sign = n;
+	do {
+		*s++ = abs(n % 10) + '0';
+	} while ((n /= 10) != 0);
+
+	if (sign < 0)
+		*s++ = '-';
+	*s = '\0';
+	reverse(t);
+}
+#else
 void reverse(char szLine[])
 {
 	int i = 0;
 	int j = 0;
 	char temp = 0;
 
-	while (szLine[i] != '\0')
-		++i;
-	--i;
-	if (szLine[i] == '\n')
-		--i;
-
-	j = 0;
-	while (j < i)
+	j = strlen(szLine)-1;
+	while (i <= j)
 	{
-		temp = szLine[j];
-		szLine[j] = szLine[i];
-		szLine[i] = temp;
-		--i;
-		++j;
+		temp = szLine[i];
+		szLine[i++] = szLine[j];
+		szLine[j--] = temp;
 	}
-
-	return;
 }
-
-#define abs(x) ((x) < 0 ? -(x) : (x))
 
 void itoa(int n, char s[])
 {
@@ -43,10 +65,10 @@ void itoa(int n, char s[])
 	s[i] = '\0';
 	reverse(s);
 }
+#endif
 
 int main()
 {
-	
 	int n = 0;
 	char s[256] = {0};
 
