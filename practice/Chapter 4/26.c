@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <ctype.h>
 
+#ifdef POINT
+double atof(char *s)
+{
+	double val = 0.0;
+	double power = 0.0;
+	int sign = 0;
+}
+#else
 double atof(char s[])
 {
 	double val = 0.0;
@@ -42,6 +50,7 @@ double atof(char s[])
 
 	return val;
 }
+#endif
 
 int main()
 {

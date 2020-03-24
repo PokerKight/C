@@ -112,6 +112,28 @@ void mathfnc(char s[])
 int getch(void);
 void ungetch(int c);
 
+#ifdef POINT
+int getop(char *s)
+{
+	int c = 0;
+
+	while ((*s = c = getch()) == ' ' || c == '\t')
+		;
+	*(s+1) = '\0';
+	if (!isdigit(c) && c != '.')
+		return c;
+	if (isdigit(c))
+		while (isdigit(*++s = c = getchar()))
+			;
+	if (c == '.')
+		while (isdigit(*++s = c = getchar()))
+			;
+	*s = '\0';
+	if (c != EOF)
+		ungetch(c);
+	return NUMBER;
+}
+#else
 int getop(char s[])
 {
 	int i = 0;
@@ -146,6 +168,7 @@ int getop(char s[])
 		ungetch(c);
 	return NUMBER;
 }
+#endif
 
 #define BUFSIZE	100
 
