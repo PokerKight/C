@@ -38,3 +38,6 @@
 [32 指针的strcat](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/32.c)<br/>
 [33 指针的strend](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/33.c)<br/>
 [34 strncpy、strncat、strncmp](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/34.c)<br/>
+[35 指针的atoi](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/35.c)<br/>
+[36 指针的strindex](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/36.c)<br/>
+[37 指针的strrindex](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/37.c)<br/>
