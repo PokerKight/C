@@ -41,3 +41,4 @@
 [35 指针的atoi](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/35.c)<br/>
 [36 指针的strindex](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/36.c)<br/>
 [37 指针的strrindex](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/37.c)<br/>
+[38 行排序](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/38.c)<br/>
