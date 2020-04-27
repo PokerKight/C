@@ -44,3 +44,4 @@
 [38 行排序](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/38.c)<br/>
 [39 某年某月某日](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/39.c)<br/>
 [40 指针的某年某月某日](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/40.c)<br/>
+[41 复杂声明](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/41.c)<br/>
