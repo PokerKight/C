@@ -119,7 +119,7 @@ int getop(char *s)
 
 	while ((*s = c = getch()) == ' ' || c == '\t')
 		;
-	*(s+1) = '\0';
+	*++s = '\0';
 	if (!isdigit(c) && c != '.')
 		return c;
 	if (isdigit(c))
