@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define MAXTOKEN	100
+#define MAXTOKEN 100
 
 enum {NAME, PARENS, BRACKETS};
 
@@ -12,12 +12,11 @@ int gettoken(void);
 int getch(void);
 void ungetch(int c);
 
-
 int g_nTokenType;
 char g_szToken[MAXTOKEN];
 char g_szName[MAXTOKEN];
 char g_szDataType[MAXTOKEN];
-char g_szOut[1000];
+char g_szOut[MAXTOKEN];
 
 int main()
 {
@@ -109,7 +108,7 @@ int gettoken(void)
 		return g_nTokenType = c;
 }
 
-#define BUFSIZE	100
+#define BUFSIZE 100
 
 char buf[BUFSIZE] = {0};
 int bufp = 0;
