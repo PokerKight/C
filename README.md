@@ -45,3 +45,5 @@
 [39 某年某月某日](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/39.c)<br/>
 [40 指针的某年某月某日](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/40.c)<br/>
 [41 复杂声明](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%205/41.c)<br/>
+## [Chapter 6](https://github.com/PokerKight/Peck/tree/master/practice/Chapter%206)
+[42 词频统计](https://github.com/PokerKight/Peck/blob/master/practice/Chapter%206/42.c)<br/>
